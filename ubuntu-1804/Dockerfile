@@ -6,12 +6,14 @@ RUN apt-get update && apt-get install --yes \
     iproute2 \
     less \
     lsb-release \
+    locales \
     openssh-server \
     python \
     python-virtualenv \
     rsyslog \
     sudo \
     systemd \
+  && locale-gen en_US.UTF-8 \
   && rm -Rf /var/lib/apt/lists/*
 
 ENV LANG=C.UTF-8
