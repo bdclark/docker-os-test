@@ -3,6 +3,7 @@ FROM ubuntu:16.04
 RUN apt-get update && apt-get install --yes \
     apt-utils \
     curl \
+    dbus \
     iproute2 \
     less \
     lsb-release \

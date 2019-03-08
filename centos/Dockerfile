@@ -2,6 +2,7 @@ FROM centos:7
 
 RUN yum -y update \
   && yum install -y \
+    dbus \
     less \
     openssh-clients \
     openssh-server \
