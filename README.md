@@ -7,6 +7,7 @@ testing Ansible roles, etc. along with tools like Test-Kitchen or Molecule.
 - `bdclark/ubuntu-1804-test` - derived from `ubuntu:18.04` official image
 - `bdclark/ubuntu-1604-test` - derived from `ubuntu:16.04` official image
 - `bdclark/centos-7` - derived from `centos:7` official image
+- `bdclark/amazonlinux-2-test` - derived from `amazonlinux:2` official image
 
 ### Usage example
 The images all have systemd installed and are expected to be used in a way
