@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
-RUN apt-get update && apt-get install --yes \
+RUN apt-get update \
+  && apt-get install --yes --no-install-recommends \
     apt-utils \
     curl \
     dbus \
@@ -9,8 +10,9 @@ RUN apt-get update && apt-get install --yes \
     lsb-release \
     locales \
     openssh-server \
-    python \
-    python-virtualenv \
+    python3 \
+    python3-pip \
+    virtualenv \
     rsyslog \
     sudo \
     systemd \

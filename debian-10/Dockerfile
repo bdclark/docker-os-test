@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM debian:buster
 
 RUN apt-get update \
   && apt-get install --yes --no-install-recommends \

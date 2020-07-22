@@ -4,12 +4,15 @@ Various OS images with additional packages added to make them useful for
 testing Ansible roles, etc. along with tools like Test-Kitchen or Molecule.
 
 ### Images built using this repo
-- `bdclark/ubuntu-1804-test` - derived from `ubuntu:18.04` official image
-- `bdclark/ubuntu-1604-test` - derived from `ubuntu:16.04` official image
+- `bdclark/ubuntu-1804-test` - derived from `ubuntu:18.04` official image (uses Python2)
+- `bdclark/ubuntu-1604-test` - derived from `ubuntu:16.04` official image (uses Python2)
+- `bdclark/ubuntu-2004-test` - derived from `ubuntu:16.04` official image
 - `bdclark/centos-7` - derived from `centos:7` official image
+- `bdclark/centos-8` - derived from `centos:8` official image
 - `bdclark/amazonlinux-2-test` - derived from `amazonlinux:2` official image
 - `bdclark/debian-8-test` - derived from `debian:jessie` official image
 - `bdclark/debian-9-test` - derived from `debian:stretch` official image
+- `bdclark/debian-10-test` - derived from `debian:buster` official image
 
 ### Usage example
 The images all have systemd installed and are expected to be used in a way

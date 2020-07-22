@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 
 RUN yum -y update \
   && yum install -y \
@@ -6,7 +6,9 @@ RUN yum -y update \
     less \
     openssh-clients \
     openssh-server \
-    python \
+    python-virtualenv \
+    python3 \
+    python3-pip \
     sudo \
     which \
   && rm -rf /var/cache/yum
