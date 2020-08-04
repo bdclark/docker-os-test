@@ -6,9 +6,12 @@ RUN yum -y update \
     less \
     openssh-clients \
     openssh-server \
-    python-virtualenv \
+    python2 \
+    python2-pip \
+    python2-virtualenv \
     python3 \
     python3-pip \
+    python3-virtualenv \
     sudo \
     which \
   && rm -rf /var/cache/yum
